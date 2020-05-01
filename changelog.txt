@@ -1,0 +1,22 @@
+0.2.0 alpha:
+- The User_number number can now be set without a space ("5 MB" = "5MB").
+- Added multiplication "*" and division "/" operators.
+- Now operations can be performed with a set of numbers, not just two.
+0.2.1 alpha:
+- Fixed a bug where the number of bits could become non-integer. This happened during multiplication or division operations. 
+Now, if the result of this operation results in a non-integer result, the number of bits is rounded up.
+0.2.2 alpha:
+- Fixed a bug where an incorrectly entered number caused the calculator to crash instead of displaying text about incorrect 
+input.
+0.2.3 alpha:
+- Fixed a bug where the User_number number was supposed to change the unit of measurement, but instead crashed with an error.
+0.2.4 alpha:
+- The result of executing the command in addition to the visible number User_name shows hidden (bits)
+0.2.5 alpha:
+- Added a file README (RU).txt. In the calculator, you can call it with the "help ru" command.
+- Added a file changelog.txt. In the calculator, you can call it with the command.
+0.2.6 alpha:
+- Fixed a bug where the Russian README text was displayed incorrectly.
+- Fixed a bug where when entering the "changelog" command, the calculator crashed with an error.
+0.2.7 alpha:
+- Fixed a bug where random input caused the calculator to crash.
